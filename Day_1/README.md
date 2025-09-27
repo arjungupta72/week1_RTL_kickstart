@@ -70,6 +70,8 @@ iverilog good_mux.v tb_good_mux.v
 gtkwave tb_good_mux.vcd
 ```
 
+![Good mux](images/gtk_good_mux.png "Good mux")
+
 ---
 
 ## 4. Verilog Code Analysis
@@ -159,14 +161,15 @@ Let’s **synthesize the good_mux design** using Yosys!
    show
    ```
 
+![netlist](images/netlist.png "netlist")
 ---
 
 ## 7. Summary
 
-* You learned about **simulators, designs, and testbenches**.
-* You ran your first **Verilog simulation** with **iverilog** and visualized waveforms in **GTKWave**.
-* You analyzed the **2-to-1 multiplexer code**.
-* You explored **Yosys** and learned why **gate libraries** have various flavors.
+* We learned about **simulators, designs, and testbenches**.
+* We ran our first **Verilog simulation** with **iverilog** and visualized waveforms in **GTKWave**.
+* We analyzed the **2-to-1 multiplexer code**.
+* We explored **Yosys** and learned why **gate libraries** have various flavors.
 
 ---
 
